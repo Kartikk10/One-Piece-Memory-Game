@@ -11,7 +11,7 @@ function DifficultySelector({ setActiveScreen, setAreInstructionsOpen }) {
   }
 
   return (
-    <div className="mt-[90px] min-[396px]:mt-[150px] sm:mt-[50px] flex flex-wrap justify-center items-center gap-5">
+    <div className="mt-[150px] min-[396px]:mt-[150px] sm:mt-[50px] flex flex-wrap justify-center items-center gap-5">
       <button
         type="button"
         className="py-3.5 px-4.5 text-xl bg-[#1e293b] text-white rounded-xl cursor-pointer hover:scale-110"
