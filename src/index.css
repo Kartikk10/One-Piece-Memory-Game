@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1500px;
+  height: auto;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Potta One", sans-serif;
+}
+
+#root {
+  background-image: url("./assets/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+}
+
+@media (width <= 585px) {
+  #root {
+    background-image: url("./assets/bg-img-for-smartphones.jpg");
+  }
+}
