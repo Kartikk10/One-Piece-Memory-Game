@@ -18,7 +18,7 @@ function GameWin({
       >
         <div className="relative w-full h-full">
           <img
-            src="/src/assets/game-win-bg-img.jpg"
+            src="/game-win-bg-img.jpg"
             alt="Background image after winning the game"
             className="absolute top-0 left-0 w-full h-full rounded-xl"
           />

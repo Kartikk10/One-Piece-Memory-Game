@@ -18,7 +18,7 @@ function GameLose({
       >
         <div className="relative w-full h-full">
           <img
-            src="/src/assets/game-lose-bg-img.jpg"
+            src="/game-lose-bg-img.jpg"
             alt="Background image after losing the game"
             className="absolute top-0 left-0 w-full h-full rounded-xl"
           />

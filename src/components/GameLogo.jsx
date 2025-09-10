@@ -8,7 +8,7 @@ function GameLogo({ activeScreen, setActiveScreen, setAreInstructionsOpen }) {
 
   return (
     <img
-      src="../src/assets/game-logo.png"
+      src="/game-logo.png"
       alt="One Piece Memory Game Logo"
       width={activeScreen === "introScreen" ? "500px" : "280px"}
       height={activeScreen === "introScreen" ? "150px" : ""}

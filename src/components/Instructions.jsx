@@ -20,7 +20,7 @@ function Instructions({ areInstructionsOpen, setAreInstructionsOpen }) {
             </li>
           </ul>
           <img
-            src="/src/assets/luffy-giving-instructions.png"
+            src="/luffy-giving-instructions.png"
             alt="Luffy giving Instructions about game"
             className="h-[170px]"
           />

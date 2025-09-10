@@ -118,7 +118,7 @@ function Card({
               }}
             >
               <img
-                src="./src/assets/card-back-face.jpg"
+                src="/card-back-face.jpg"
                 alt="Card Backface"
                 className="w-full h-full rounded-xl"
               />
